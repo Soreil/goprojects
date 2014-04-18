@@ -29,6 +29,7 @@ func Same(t1, t2 *tree.Tree) bool {
 	for i := 0; i < 10; i++ {
 		t2vals[i] = <-ch
 	}
+	// the next few lines should be made a bit cleaner, you can't compare slices so I should use arrays instead
 	fmt.Println(t1vals)
 	fmt.Println(t2vals)
 	sort.Ints(t1vals)
