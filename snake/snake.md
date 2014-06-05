@@ -13,10 +13,10 @@ The array is a two dimensional array of WIDTH * HEIGHTH.
 	CELL[0][0] is in the top left corner.
 
 a cell has a number of properties:
-	enum:
-- SNAKE
-- EMPTY
-- ITEM
+-enum:
+-- SNAKE
+-- EMPTY
+-- ITEM
 TTL int
 
 in case of SNAKE there is also a TTL, this is decremented by one every game tick. When the TTL hits 0 the square becomes EMPTY. A cell can be only one of these three basic types, When an item becomes snake the snake length is increased by one and the TTL is set. when a cell becomes empty it is eligible to become ITEM.
