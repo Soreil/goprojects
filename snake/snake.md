@@ -9,7 +9,7 @@ The grid has a number of properties:
 	CELL array
 	WIDTH HEIGHTH int
 	
-	The array is a two dimensional array of WIDTH * HEIGHTH.
+The array is a two dimensional array of WIDTH * HEIGHTH.
 	CELL[0][0] is in the top left corner.
 
 a cell has a number of properties:
